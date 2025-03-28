@@ -1,0 +1,15 @@
+[package]
+name = "Student-community-run-learning-DAO"
+version = "1.0.0"
+authors = []
+
+[addresses]
+StudentLearningDAO = "0xbd4ee163490e2d92cdf32d0dcbc4bd5d82ef810dac22e5e08590adfa9cbec3a7"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
